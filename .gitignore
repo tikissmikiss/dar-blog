@@ -2,4 +2,6 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+papelera
+comandos_jekyll.txt
 vendor

@@ -1,0 +1,45 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>Este es el blog resultante de la realización de una de las actividades práctica de la asignatura “Desarrollo de Aplicaciones en Red” del Grado en Ingeniería Informática de UNIR<sup>©</sup>.</p>
+
+        <h3>Objetivo</h3>
+        <p>El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la
+          programación
+          (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog,
+          donde los
+          conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.</p>
+
+        <h3>Enunciado</h3>
+        <p>El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la
+          actividad, se
+          recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).</p>
+
+        <!-- <p>{{ site.description | escape }}</p> -->
+      </div>
+      <div class="footer-col">
+        {%- if site.author %}
+        <div class="contact-list">
+          {% if site.author -%}
+          <span class="p-name">Autor: {{ site.author | escape }}</span>
+          {% endif -%}
+          {% if site.email -%}
+          <span> - </span><span><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+          {%- endif %}
+        </div>
+        {%- endif %}
+      </div>
+
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer>

@@ -18,21 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: TK DAR BLOG
+subject: Desarrollo de Aplicaciones en Red
+author: José Herce
+email: jose-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "dar-blog" # the subpath of your site, e.g. /blog
+  <p>Actividad práctica de la asignatura “Desarrollo de Aplicaciones en Red” del Grado en Ingeniería Informática de UNIR<sup>©</sup>.</p>
+
+  <p>El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la programación (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog, donde los conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.</p>
+
+  <p>El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la actividad, se recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).</p>
+baseurl: #"dar-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: jherce
+github_username:  jherce
 
 # Build settings
-theme: minima
+theme: 
 plugins:
-  - jekyll-feed
+ - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -42,16 +46,23 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Personalizacion
+# Personalizacion 
+logo: /media/triskel_small.png
+descripcion_blog:
+  <p>Actividad práctica de la asignatura “Desarrollo de Aplicaciones en Red” del Grado en Ingeniería Informática de UNIR<sup>©</sup>.</p>
+
+  <p>El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la programación (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog, donde los conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.</p>
+
+  <p>El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la actividad, se recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).</p>
