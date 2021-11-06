@@ -2,7 +2,7 @@
 layout: post
 title: "Algunas posibilidades que ofrece Liquid"
 # date: 2021-10-30 13:06:52 +0200
-img: "media/triskel_medium.png"
+img: "media/liquid.png"
 author: José Herce
 txt1: "{{ page.open-keys}} and {{ page.close-keys}}."
 open-keys: "{{ "
@@ -13,6 +13,11 @@ excerpt_separator: "<!--more-->"
 ---
 
 <div class="liquid article">
+
+<p class="post-paragraph">
+    <a href="https://shopify.github.io/liquid/"><img class="excerpt-image" src="{{ page.img | relative_url }}" width="30%" alt="logo Jekyll" /></a>
+</p>
+
 <p class="post-paragraph">
     <a href="https://shopify.github.io/liquid/"><em>Liquid</em></a> es un lenguaje de código abierto para creación de
     plantillas. Está escrito en <em>Ruby</em> y fue desarrollado por <a href="https://www.shopify.com/">Shopify</a>. Se

@@ -2,16 +2,19 @@
 layout: post
 title: "Proceso de renderizado de Jekyll"
 categories: misc
-img: "media/jekyll.svg"
+img: "media/jekyll_render.png"
 author: José Herce
 excerpt_separator: "<!--more-->"
-
 ---
 
 <article class="article">
   <div class="improve right hide-on-mobiles"> <a data-proofer-ignore=""
       href="https://github.com/jekyll/jekyll/edit/master/docs/_docs/rendering-process.md"><i class="fa fa-pencil"></i>
       </a> </div>
+  <p class="post-paragraph">
+    <a href="https://github.com/jekyll/jekyll/issues/4262"><img class="excerpt-image" src="{{ page.img | relative_url }}" width="60%" alt="logo Jekyll" /></a>
+  </p>
+
   <!-- <h1 class="post-paragraph"> <span> <span>Proceso de renderizado de Jekyll</span> </span> </h1> -->
   <p class="post-paragraph"> <span> <span>Para cualquier sitio de Jekyll, una </span> </span><em> <span> <span>sesión de
           compilación</span> </span> </em> <span> <span> consta de fases discretas en el siguiente orden: </span>
