@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   <p>El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la programación (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog, donde los conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.</p>
 
   <p>El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la actividad, se recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).</p>
-baseurl: #"dar-blog" # the subpath of your site, e.g. /blog
+baseurl: "dar-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jherce
 github_username:  jherce
