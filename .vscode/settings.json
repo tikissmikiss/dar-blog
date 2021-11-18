@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "*.yaml": "home-assistant"
-    },
-    "cSpell.enableFiletypes": [
-        "home-assistant"
-    ]
-}
