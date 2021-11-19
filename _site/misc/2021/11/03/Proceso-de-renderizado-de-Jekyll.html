@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4001/feed.xml" title="TK DAR BLOG" /></head>
+<body><div class="margin"></div>
+<header class="nav">
+
+    <div class="nav-bar"><div class="nav-bar-item nav-bar-title">
+            <a class="link-home" href="http://localhost:4001">
+                <img class="logo" src="/media/triskel_small.png"  alt="" /></a>
+            <span class="site-title-subject">
+                <a class="link-home" href="http://localhost:4001">
+                    <h1 class="site-title">TK DAR BLOG</h1>
+                </a>
+                <a class="link-home" href="http://localhost:4001">
+                    <h4 class="site-subject">Desarrollo de Aplicaciones en Red</h4>
+                </a>
+            </span>
+        </div><nav class="nav-bar-item nav-bar-menu">
+            <ul><li>
+                    <a href="/about/">
+                        <h4>About</h4>
+                    </a>
+                </li><li>
+                    <a href="/">
+                        <h4>Home</h4>
+                    </a>
+                </li></ul>
+        </nav></div>
+
+</header>
+<div class="margin"></div><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Proceso de renderizado de Jekyll</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-11-03T00:00:00+01:00" itemprop="datePublished">
+        Nov 3, 2021
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">José Herce</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <article class="article">
+  <div class="improve right hide-on-mobiles"> <a data-proofer-ignore="" href="https://github.com/jekyll/jekyll/edit/master/docs/_docs/rendering-process.md" target="_blank"><i class="fa fa-pencil"></i>
+      </a> </div>
+  <p class="post-paragraph">
+    <a href="https://github.com/jekyll/jekyll/issues/4262" target="_blank"><img class="excerpt-image" src="/media/jekyll_render.png" width="60%" alt="logo Jekyll" /></a>
+  </p>
+
+  <!-- <h1 class="post-paragraph"> <span> <span>Proceso de renderizado de Jekyll</span> </span> </h1> -->
+  <p class="post-paragraph"> <span> <span>Para cualquier sitio de Jekyll, una </span> </span><em> <span> <span>sesión de
+          compilación</span> </span> </em> <span> <span> consta de fases discretas en el siguiente orden: </span>
+    </span><em> <span> <span>configurar complementos, leer archivos de origen, ejecutar generadores, representar
+          plantillas</span> </span> </em> <span> <span> y, finalmente, </span> </span><em> <span> <span>escribir
+          archivos en el disco</span> </span> </em> <span> <span> .</span> </span> </p>
+  <p class="post-paragraph"> <span> <span>Si bien las fases anteriores se explican por sí mismas, la única fase que
+        justifica la disección es </span> </span><em> <span> <span>la fase de interpretación</span> </span> </em> <span>
+      <span> .</span> </span> </p>
+  <p class="post-paragraph"> <span> <span>La fase de renderizado se puede dividir en tres etapas opcionales. </span>
+      <span class="">Cada archivo renderizado pasa por una o más de estas etapas según lo determinado por la cadena de
+        contenido, el contenido inicial y la extensión del archivo. </span> <span>Las etapas son similares a una línea
+        de montaje, y la </span> </span><em> <span> <span>salida</span> </span> </em> <span> <span> de una etapa es la
+      </span> </span><em> <span> <span>entrada</span> </span> </em> <span> <span> para la etapa siguiente:</span>
+    </span> </p>
+<!--more-->
+  <ul>
+    <li><strong> <span> <span>Interpretación de expresiones de Liquid en el archivo</span> </span> </strong><br /> <span>
+        <span> Esta etapa evalúa las expresiones de Liquid en el archivo actual. </span> <span>De forma predeterminada,
+          la interpretación es </span> </span><em> <span> <span>superficial</span> </span> </em> <span> <span> , en el
+          sentido de que cualquier expresión de Liquid en la salida resultante no se interpreta más.
+        </span> <span>Además, cualquier expresión de Liquid en la parte frontal del archivo no se modifica.</span>
+      </span> </li>
+    <li><strong> <span> <span>Liberar los convertidores</span> </span> </strong><br /> <span> <span> Esta etapa invoca el
+          convertidor asignado a la extensión del archivo actual y convierte la cadena de entrada.
+        </span> <span>Esto es cuando Markdown se convierte en HTML y Sass / Scss en CSS o CoffeeScript en JavaScript,
+          etc., etc.
+          Dado que esta etapa está determinada por la extensión del archivo, Markdown o Sass dentro de un </span>
+      </span><code class="language-plaintext highlighter-rouge">.html</code> <span> <span>archivo permanecerán
+          intactos.</span> </span> </li>
+    <li><strong> <span> <span>Completar los diseños</span> </span> </strong><br /> <span> <span> En esta etapa, </span>
+      </span><em> <span> <span>el archivo de origen</span> </span> </em> <span> <span> se considera renderizado y no se
+          volverá a visitar. </span> <span>Sin embargo, en función de la extensión del archivo y, en consecuencia, en
+          función de la materia </span> <span>inicial </span> <span>, se determina si tomar la </span> <span>cadena de
+        </span> </span><em> <span> <span>salida</span> </span> </em> <span> <span> de la etapa anterior y colocarla en
+          diseños o no. </span> <span>Mientras que la salida de los archivos Sass o los archivos CoffeeScript </span>
+      </span><em> <span> <span>nunca se</span> </span> </em> <span> <span> colocan en un diseño, la salida de texto
+          normal puede ir de cualquier manera según si se ha asignado un diseño
+          a través de la página principal. </span> </span><br /><br /> <span> <span class=""> La colocación en diseños
+          funciona de manera similar a cómo las muñecas rusas encierran a las más pequeñas
+          dentro de sí mismas o cómo una ostra genera una perla: la salida convertida de la etapa anterior forma el
+          núcleo y los diseños se </span><em> <span class="">renderizan</span> </em> <span class=""> sucesivamente
+        </span> </span><em> <span></span> </em> <span> <span> por separado en el núcleo.</span> </span> </li>
+  </ul>
+</article>
+
+  </div><a class="u-url" href="/misc/2021/11/03/Proceso-de-renderizado-de-Jekyll.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/%20/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>Este es el blog resultante de la realización de una de las actividades práctica de la asignatura “Desarrollo de Aplicaciones en Red” del Grado en Ingeniería Informática de UNIR<sup>©</sup>.</p>
+
+        <h3>Objetivo</h3>
+        <p>El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la
+          programación
+          (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog,
+          donde los
+          conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.</p>
+
+        <h3>Enunciado</h3>
+        <p>El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la
+          actividad, se
+          recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).</p>
+
+        <!-- <p>&lt;p&gt;Actividad práctica de la asignatura “Desarrollo de Aplicaciones en Red” del Grado en Ingeniería Informática de UNIR&lt;sup&gt;©&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la programación (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog, donde los conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.&lt;/p&gt;
+&lt;p&gt;El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la actividad, se recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).&lt;/p&gt;</p> -->
+      </div>
+      <div class="footer-col">
+        <div class="contact-list">
+          <span class="p-name">Autor: José Herce</span>
+          <span> - </span><span><a class="u-email" href="mailto:jose-email@example.com">jose-email@example.com</a></span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul></div>
+
+  </div>
+
+</footer></body>
+
+</html>

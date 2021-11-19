@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2021-11-19T12:59:07+01:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">TK DAR BLOG</title><subtitle>&lt;p&gt;Actividad práctica de la asignatura “Desarrollo de Aplicaciones en Red” del Grado en Ingeniería Informática de UNIR&lt;sup&gt;©&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;El objetivo principal de la actividad es poner en práctica los conceptos básicos relacionados con la programación (HTML+CSS). De esta forma, el alumno será capaz de crear el mismo un sitio web sencillo, en caso un blog, donde los conocimientos aplicados podrán ser extrapolados a cualquier sitio web que se quiera crear desde cero.&lt;/p&gt;
+&lt;p&gt;El blog deberá contener un mínimo de 3 entradas sencillas (texto + imágenes). Para poder realizar la actividad, se recomienda utilizar una plataforma de generación de sitios estáticos (como Gatsby, Jekyll u otro).&lt;/p&gt;</subtitle><author><name>José Herce</name></author><entry><title type="html">Blog elaborado mediante la herramienta Jekyll</title><link href="http://localhost:4001/misc/2021/11/04/Blog-elaborado-mediante-la-herramienta-Jekyll.html" rel="alternate" type="text/html" title="Blog elaborado mediante la herramienta Jekyll" /><published>2021-11-04T00:00:00+01:00</published><updated>2021-11-04T00:00:00+01:00</updated><id>http://localhost:4001/misc/2021/11/04/Blog%20elaborado%20mediante%20la%20herramienta%20Jekyll</id><content type="html" xml:base="http://localhost:4001/misc/2021/11/04/Blog-elaborado-mediante-la-herramienta-Jekyll.html">&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;excerpt-image&quot; src=&quot;/media/jekyll.svg&quot; width=&quot;30%&quot; alt=&quot;logo Jekyll&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    Para la elaboración de este blog se ha elegido usar la herramienta &lt;a href=&quot;https://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt; &lt;em&gt;Jekyll&lt;/em&gt;&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;em&gt;Jekyll&lt;/em&gt; es una herramienta que permite generar sitios estáticos. Toma texto escrito en un lenguaje de marcado
+    como puede ser &lt;em&gt;html&lt;/em&gt; o &lt;em&gt;markdown&lt;/em&gt; y utiliza layouts para crear un sitio web estático. Permite ajustar la
+    apariencia del sitio, las direcciones URL, los datos mostrados en la página y mucho más.
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;em&gt;Jekyll&lt;/em&gt; está escrito en &lt;em&gt;Ruby&lt;/em&gt;. Por lo que lo primero que se necesita es tener &lt;em&gt;Ruby&lt;/em&gt; instalado. Después de tener
+    &lt;em&gt;Ruby&lt;/em&gt; instalado podemos instalar &lt;em&gt;Jekyll&lt;/em&gt; mediante su administrador de paquetes llamado &lt;em&gt;RubyGems&lt;/em&gt;.
+&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;ol class=&quot;post-paragraph&quot;&gt;Para ello:
+        &lt;li&gt;
+            Instalar los &lt;a href=&quot;https://jekyllrb.com/docs/ruby-101/#gems&quot; target=&quot;_blank&quot;&gt;gems&lt;/a&gt; de &lt;em&gt;Jekyll&lt;/em&gt; y &lt;em&gt;Bundler&lt;/em&gt;.
+        &lt;/li&gt;
+        &lt;div class=&quot;post-code-cmd&quot;&gt;gem install jekyll bundler&lt;/div&gt;
+        &lt;li&gt;
+            Crear un nuevo sitio de &lt;em&gt;Jekyll&lt;/em&gt; en ./myblog.
+        &lt;/li&gt;
+        &lt;div class=&quot;post-code-cmd&quot;&gt;jekyll new myblog&lt;/div&gt;
+        &lt;li&gt;
+            Cambiar al nuevo directorio.
+        &lt;/li&gt;
+        &lt;div class=&quot;post-code-cmd&quot;&gt;cd myblog&lt;/div&gt;
+        &lt;li&gt;
+            Construir el sitio y ponerlo a disposición en un servidor local.
+        &lt;/li&gt;
+        &lt;div class=&quot;post-code-cmd&quot;&gt;bundle exec jekyll serve&lt;/div&gt;
+        &lt;li&gt;
+            Abrir el navegador en &lt;a href=&quot;http://localhost:4000&quot; target=&quot;_blank&quot;&gt;http://localhost:4000&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/p&gt;</content><author><name>José Herce</name></author><category term="misc" /><summary type="html">Para la elaboración de este blog se ha elegido usar la herramienta Jekyll. Jekyll es una herramienta que permite generar sitios estáticos. Toma texto escrito en un lenguaje de marcado como puede ser html o markdown y utiliza layouts para crear un sitio web estático. Permite ajustar la apariencia del sitio, las direcciones URL, los datos mostrados en la página y mucho más. Jekyll está escrito en Ruby. Por lo que lo primero que se necesita es tener Ruby instalado. Después de tener Ruby instalado podemos instalar Jekyll mediante su administrador de paquetes llamado RubyGems.</summary></entry><entry><title type="html">Proceso de renderizado de Jekyll</title><link href="http://localhost:4001/misc/2021/11/03/Proceso-de-renderizado-de-Jekyll.html" rel="alternate" type="text/html" title="Proceso de renderizado de Jekyll" /><published>2021-11-03T00:00:00+01:00</published><updated>2021-11-03T00:00:00+01:00</updated><id>http://localhost:4001/misc/2021/11/03/Proceso%20de%20renderizado%20de%20Jekyll</id><content type="html" xml:base="http://localhost:4001/misc/2021/11/03/Proceso-de-renderizado-de-Jekyll.html">&lt;article class=&quot;article&quot;&gt;
+  &lt;div class=&quot;improve right hide-on-mobiles&quot;&gt; &lt;a data-proofer-ignore=&quot;&quot; href=&quot;https://github.com/jekyll/jekyll/edit/master/docs/_docs/rendering-process.md&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-pencil&quot;&gt;&lt;/i&gt;
+      &lt;/a&gt; &lt;/div&gt;
+  &lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4262&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;excerpt-image&quot; src=&quot;/media/jekyll_render.png&quot; width=&quot;60%&quot; alt=&quot;logo Jekyll&quot; /&gt;&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;!-- &lt;h1 class=&quot;post-paragraph&quot;&gt; &lt;span&gt; &lt;span&gt;Proceso de renderizado de Jekyll&lt;/span&gt; &lt;/span&gt; &lt;/h1&gt; --&gt;
+  &lt;p class=&quot;post-paragraph&quot;&gt; &lt;span&gt; &lt;span&gt;Para cualquier sitio de Jekyll, una &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;sesión de
+          compilación&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; consta de fases discretas en el siguiente orden: &lt;/span&gt;
+    &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;configurar complementos, leer archivos de origen, ejecutar generadores, representar
+          plantillas&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; y, finalmente, &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;escribir
+          archivos en el disco&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; .&lt;/span&gt; &lt;/span&gt; &lt;/p&gt;
+  &lt;p class=&quot;post-paragraph&quot;&gt; &lt;span&gt; &lt;span&gt;Si bien las fases anteriores se explican por sí mismas, la única fase que
+        justifica la disección es &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;la fase de interpretación&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt;
+      &lt;span&gt; .&lt;/span&gt; &lt;/span&gt; &lt;/p&gt;
+  &lt;p class=&quot;post-paragraph&quot;&gt; &lt;span&gt; &lt;span&gt;La fase de renderizado se puede dividir en tres etapas opcionales. &lt;/span&gt;
+      &lt;span class=&quot;&quot;&gt;Cada archivo renderizado pasa por una o más de estas etapas según lo determinado por la cadena de
+        contenido, el contenido inicial y la extensión del archivo. &lt;/span&gt; &lt;span&gt;Las etapas son similares a una línea
+        de montaje, y la &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;salida&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; de una etapa es la
+      &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;entrada&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; para la etapa siguiente:&lt;/span&gt;
+    &lt;/span&gt; &lt;/p&gt;
+&lt;!--more--&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt; &lt;span&gt; &lt;span&gt;Interpretación de expresiones de Liquid en el archivo&lt;/span&gt; &lt;/span&gt; &lt;/strong&gt;&lt;br /&gt; &lt;span&gt;
+        &lt;span&gt; Esta etapa evalúa las expresiones de Liquid en el archivo actual. &lt;/span&gt; &lt;span&gt;De forma predeterminada,
+          la interpretación es &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;superficial&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; , en el
+          sentido de que cualquier expresión de Liquid en la salida resultante no se interpreta más.
+        &lt;/span&gt; &lt;span&gt;Además, cualquier expresión de Liquid en la parte frontal del archivo no se modifica.&lt;/span&gt;
+      &lt;/span&gt; &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt; &lt;span&gt; &lt;span&gt;Liberar los convertidores&lt;/span&gt; &lt;/span&gt; &lt;/strong&gt;&lt;br /&gt; &lt;span&gt; &lt;span&gt; Esta etapa invoca el
+          convertidor asignado a la extensión del archivo actual y convierte la cadena de entrada.
+        &lt;/span&gt; &lt;span&gt;Esto es cuando Markdown se convierte en HTML y Sass / Scss en CSS o CoffeeScript en JavaScript,
+          etc., etc.
+          Dado que esta etapa está determinada por la extensión del archivo, Markdown o Sass dentro de un &lt;/span&gt;
+      &lt;/span&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.html&lt;/code&gt; &lt;span&gt; &lt;span&gt;archivo permanecerán
+          intactos.&lt;/span&gt; &lt;/span&gt; &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt; &lt;span&gt; &lt;span&gt;Completar los diseños&lt;/span&gt; &lt;/span&gt; &lt;/strong&gt;&lt;br /&gt; &lt;span&gt; &lt;span&gt; En esta etapa, &lt;/span&gt;
+      &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;el archivo de origen&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; se considera renderizado y no se
+          volverá a visitar. &lt;/span&gt; &lt;span&gt;Sin embargo, en función de la extensión del archivo y, en consecuencia, en
+          función de la materia &lt;/span&gt; &lt;span&gt;inicial &lt;/span&gt; &lt;span&gt;, se determina si tomar la &lt;/span&gt; &lt;span&gt;cadena de
+        &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;salida&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; de la etapa anterior y colocarla en
+          diseños o no. &lt;/span&gt; &lt;span&gt;Mientras que la salida de los archivos Sass o los archivos CoffeeScript &lt;/span&gt;
+      &lt;/span&gt;&lt;em&gt; &lt;span&gt; &lt;span&gt;nunca se&lt;/span&gt; &lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; colocan en un diseño, la salida de texto
+          normal puede ir de cualquier manera según si se ha asignado un diseño
+          a través de la página principal. &lt;/span&gt; &lt;/span&gt;&lt;br /&gt;&lt;br /&gt; &lt;span&gt; &lt;span class=&quot;&quot;&gt; La colocación en diseños
+          funciona de manera similar a cómo las muñecas rusas encierran a las más pequeñas
+          dentro de sí mismas o cómo una ostra genera una perla: la salida convertida de la etapa anterior forma el
+          núcleo y los diseños se &lt;/span&gt;&lt;em&gt; &lt;span class=&quot;&quot;&gt;renderizan&lt;/span&gt; &lt;/em&gt; &lt;span class=&quot;&quot;&gt; sucesivamente
+        &lt;/span&gt; &lt;/span&gt;&lt;em&gt; &lt;span&gt;&lt;/span&gt; &lt;/em&gt; &lt;span&gt; &lt;span&gt; por separado en el núcleo.&lt;/span&gt; &lt;/span&gt; &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/article&gt;</content><author><name>José Herce</name></author><category term="misc" /><summary type="html">Para cualquier sitio de Jekyll, una sesión de compilación consta de fases discretas en el siguiente orden: configurar complementos, leer archivos de origen, ejecutar generadores, representar plantillas y, finalmente, escribir archivos en el disco . Si bien las fases anteriores se explican por sí mismas, la única fase que justifica la disección es la fase de interpretación . La fase de renderizado se puede dividir en tres etapas opcionales. Cada archivo renderizado pasa por una o más de estas etapas según lo determinado por la cadena de contenido, el contenido inicial y la extensión del archivo. Las etapas son similares a una línea de montaje, y la salida de una etapa es la entrada para la etapa siguiente:</summary></entry><entry><title type="html">Algunas posibilidades que ofrece Liquid</title><link href="http://localhost:4001/2021/11/02/Algunas-posibilidades-que-ofrece-Liquid.html" rel="alternate" type="text/html" title="Algunas posibilidades que ofrece Liquid" /><published>2021-11-02T00:00:00+01:00</published><updated>2021-11-02T00:00:00+01:00</updated><id>http://localhost:4001/2021/11/02/Algunas%20posibilidades%20que%20ofrece%20Liquid</id><content type="html" xml:base="http://localhost:4001/2021/11/02/Algunas-posibilidades-que-ofrece-Liquid.html">&lt;div class=&quot;liquid article&quot;&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;a href=&quot;https://shopify.github.io/liquid/&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;excerpt-image&quot; src=&quot;/media/liquid.png&quot; width=&quot;30%&quot; alt=&quot;logo Jekyll&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;a href=&quot;https://shopify.github.io/liquid/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Liquid&lt;/em&gt;&lt;/a&gt; es un lenguaje de código abierto para creación de
+    plantillas. Está escrito en &lt;em&gt;Ruby&lt;/em&gt; y fue desarrollado por &lt;a href=&quot;https://www.shopify.com/&quot; target=&quot;_blank&quot;&gt;Shopify&lt;/a&gt;. Se
+    utiliza para cargar contenido de manera dinámica durante el desarrollo de páginas web.
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    &lt;em&gt;Liquid&lt;/em&gt; utiliza una combinación de &lt;a href=&quot;#objects&quot;&gt;&lt;strong&gt;objetos&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;#tags&quot;&gt;&lt;strong&gt;etiquetas&lt;/strong&gt;&lt;/a&gt; y &lt;a href=&quot;#filters&quot;&gt;&lt;strong&gt;filtros&lt;/strong&gt;&lt;/a&gt; para crear una plantilla que permite mostrar
+    contenido de manera dinámica.
+&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 class=&quot;post-paragraph&quot; id=&quot;objects&quot;&gt;Objetos&lt;/h2&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+    Los &lt;strong&gt;objetos&lt;/strong&gt; contienen el contenido que Liquid muestra en una página. Los objetos y las variables se muestran cuando están encerrados
+    entre llaves dobles: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{ &lt;/code&gt;and&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; }}&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph code-label-liquid&quot;&gt;Input&lt;/p&gt;
+&lt;p class=&quot;post-code-liquid post-paragraph&quot;&gt;
+    &lt;code class=&quot;highlight&quot;&gt;{{ &lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;.&lt;span class=&quot;nv&quot;&gt;title&lt;/span&gt; }}&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;code-label-liquid &quot;&gt;Output&lt;/p&gt;
+&lt;p class=&quot;post-code-liquid &quot;&gt;
+    &lt;code&gt;Introduction&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+     title del objeto page, que contiene el texto Introduction
+    En este caso, Liquid representa el contenido de la propiedad &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt;
+    del objeto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page&lt;/code&gt;, que contiene el texto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Introduction&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 class=&quot;post-paragraph&quot; id=&quot;tags&quot;&gt;Etiquetas&lt;/h2&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+Las &lt;strong&gt;Etiquetas&lt;/strong&gt; crean la lógica y el flujo de control de las plantillas. Los delimitadores de llaves con porcentaje que rodean texto &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{%&lt;/code&gt; y &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%}&lt;/code&gt;, no producen ningún resultado visible cuando se renderiza la plantilla. Esto le permite asignar variables y crear condiciones o bucles sin mostrar ninguna lógica líquida en la página.
+&lt;/p&gt;
+
+&lt;p class=&quot;code-label-liquid&quot;&gt;Input&lt;/p&gt;
+&lt;div class=&quot;post-code-liquid highlighter-rouge&quot;&gt;
+    &lt;div class=&quot;highlight&quot;&gt;
+        &lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+  Hello &lt;span class=&quot;p&quot;&gt;{{ &lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt; }}&lt;/span&gt;!
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;code-label-liquid&quot;&gt;Output&lt;/p&gt;
+&lt;p class=&quot;post-code-liquid post-paragraph&quot;&gt;
+    &lt;code&gt;Hello Adam!&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+Las etiquetas se pueden clasificar en varios tipos:&lt;/p&gt;
+
+&lt;ul class=&quot;post-paragraph&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid/tags/control-flow/&quot; target=&quot;_blank&quot;&gt;Control de flujo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid/tags/iteration/&quot; target=&quot;_blank&quot;&gt;Iteración&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid/tags/template/&quot; target=&quot;_blank&quot;&gt;Plantilla&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid/tags/variable/&quot; target=&quot;_blank&quot;&gt;Asignación variable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+Puede leer más sobre cada tipo de etiqueta en sus respectivas secciones.&lt;/p&gt;
+
+&lt;h2 class=&quot;post-paragraph&quot; id=&quot;filters&quot;&gt;Filtros&lt;/h2&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+Los &lt;strong&gt;Filtros&lt;/strong&gt; cambian la salida de un objeto o variable Liquid. Se utilizan dentro de llaves dobles &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{  }}&lt;/code&gt; junto a una &lt;a href=&quot;https://shopify.github.io/liquid/tags/variable/&quot; target=&quot;_blank&quot;&gt;asignación de variables&lt;/a&gt;, y
+están separadas por un carácter de barra vertical &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;code-label-liquid&quot;&gt;Input&lt;/p&gt;
+&lt;div class=&quot;post-code-liquid highlighter-rouge&quot;&gt;
+    &lt;div class=&quot;highlight&quot;&gt;
+        &lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{{ &lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/my/fancy/url&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.html&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt; }}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;code-label-liquid&quot;&gt;Output&lt;/p&gt;
+&lt;p class=&quot;post-code-liquid post-paragraph&quot;&gt;
+    &lt;code&gt;/my/fancy/url.html&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;post-paragraph&quot;&gt;
+Se pueden usar varios filtros en una salida y se aplican de izquierda a derecha.
+&lt;/p&gt;
+
+&lt;p class=&quot;code-label-liquid&quot;&gt;Input&lt;/p&gt;
+&lt;div class=&quot;post-code-liquid highlighter-rouge&quot;&gt;
+    &lt;div class=&quot;highlight&quot;&gt;
+        &lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{{ &lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;adam!&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;capitalize&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;prepend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello &quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt; }}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;code-label-liquid&quot;&gt;Output&lt;/p&gt;
+&lt;p class=&quot;post-code-liquid post-paragraph&quot;&gt;
+    &lt;code&gt;Hello Adam!&lt;/code&gt;
+&lt;/p&gt;
+&lt;/div&gt;</content><author><name>José Herce</name></author><summary type="html">Liquid es un lenguaje de código abierto para creación de plantillas. Está escrito en Ruby y fue desarrollado por Shopify. Se utiliza para cargar contenido de manera dinámica durante el desarrollo de páginas web. Liquid utiliza una combinación de objetos, etiquetas y filtros para crear una plantilla que permite mostrar contenido de manera dinámica.</summary></entry></feed>
