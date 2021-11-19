@@ -9,11 +9,11 @@ excerpt_separator: "<!--more-->"
 
 
 <p class="post-paragraph">
-    <a href="https://jekyllrb.com/"><img class="excerpt-image" src="{{ page.img | relative_url }}" width="30%" alt="logo Jekyll" /></a>
+    <a href="https://jekyllrb.com/" target="_blank"><img class="excerpt-image" src="{{ page.img | relative_url }}" width="30%" alt="logo Jekyll" /></a>
 </p>
 
 <p class="post-paragraph">
-    Para la elaboración de este blog se ha elegido usar la herramienta <a href="https://jekyllrb.com/"> <em>Jekyll</em></a>.
+    Para la elaboración de este blog se ha elegido usar la herramienta <a href="https://jekyllrb.com/" target="_blank"> <em>Jekyll</em></a>.
 </p>
 
 <p class="post-paragraph">
@@ -32,7 +32,7 @@ excerpt_separator: "<!--more-->"
 <p class="post-paragraph">
     <ol class="post-paragraph">Para ello:
         <li>
-            Instalar los <a href="https://jekyllrb.com/docs/ruby-101/#gems">gems</a> de <em>Jekyll</em> y <em>Bundler</em>.
+            Instalar los <a href="https://jekyllrb.com/docs/ruby-101/#gems" target="_blank">gems</a> de <em>Jekyll</em> y <em>Bundler</em>.
         </li>
         <div class="post-code-cmd">gem install jekyll bundler</div>
         <li>
@@ -48,7 +48,7 @@ excerpt_separator: "<!--more-->"
         </li>
         <div class="post-code-cmd">bundle exec jekyll serve</div>
         <li>
-            Abrir el navegador en <a href="http://localhost:4000">http://localhost:4000</a>
+            Abrir el navegador en <a href="http://localhost:4000" target="_blank">http://localhost:4000</a>
         </li>
     </ol>
 </p>

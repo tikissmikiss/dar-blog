@@ -15,12 +15,12 @@ excerpt_separator: "<!--more-->"
 <div class="liquid article">
 
 <p class="post-paragraph">
-    <a href="https://shopify.github.io/liquid/"><img class="excerpt-image" src="{{ page.img | relative_url }}" width="30%" alt="logo Jekyll" /></a>
+    <a href="https://shopify.github.io/liquid/" target="_blank"><img class="excerpt-image" src="{{ page.img | relative_url }}" width="30%" alt="logo Jekyll" /></a>
 </p>
 
 <p class="post-paragraph">
-    <a href="https://shopify.github.io/liquid/"><em>Liquid</em></a> es un lenguaje de código abierto para creación de
-    plantillas. Está escrito en <em>Ruby</em> y fue desarrollado por <a href="https://www.shopify.com/">Shopify</a>. Se
+    <a href="https://shopify.github.io/liquid/" target="_blank"><em>Liquid</em></a> es un lenguaje de código abierto para creación de
+    plantillas. Está escrito en <em>Ruby</em> y fue desarrollado por <a href="https://www.shopify.com/" target="_blank">Shopify</a>. Se
     utiliza para cargar contenido de manera dinámica durante el desarrollo de páginas web.
 </p>
 
@@ -80,10 +80,10 @@ Las <strong>Etiquetas</strong> crean la lógica y el flujo de control de las pla
 Las etiquetas se pueden clasificar en varios tipos:</p>
 
 <ul class="post-paragraph">
-    <li><a href="https://shopify.github.io/liquid/tags/control-flow/">Control de flujo</a></li>
-    <li><a href="https://shopify.github.io/liquid/tags/iteration/">Iteración</a></li>
-    <li><a href="https://shopify.github.io/liquid/tags/template/">Plantilla</a></li>
-    <li><a href="https://shopify.github.io/liquid/tags/variable/">Asignación variable</a></li>
+    <li><a href="https://shopify.github.io/liquid/tags/control-flow/" target="_blank">Control de flujo</a></li>
+    <li><a href="https://shopify.github.io/liquid/tags/iteration/" target="_blank">Iteración</a></li>
+    <li><a href="https://shopify.github.io/liquid/tags/template/" target="_blank">Plantilla</a></li>
+    <li><a href="https://shopify.github.io/liquid/tags/variable/" target="_blank">Asignación variable</a></li>
 </ul>
 
 <p class="post-paragraph">
@@ -92,7 +92,7 @@ Puede leer más sobre cada tipo de etiqueta en sus respectivas secciones.</p>
 <h2 class="post-paragraph" id="filters">Filtros</h2>
 
 <p class="post-paragraph">
-Los <strong>Filtros</strong> cambian la salida de un objeto o variable Liquid. Se utilizan dentro de llaves dobles <code class="language-plaintext highlighter-rouge">{{ page.open-keys }}{{ page.close-keys }}</code> junto a una <a href="https://shopify.github.io/liquid/tags/variable/">asignación de variables</a>, y
+Los <strong>Filtros</strong> cambian la salida de un objeto o variable Liquid. Se utilizan dentro de llaves dobles <code class="language-plaintext highlighter-rouge">{{ page.open-keys }}{{ page.close-keys }}</code> junto a una <a href="https://shopify.github.io/liquid/tags/variable/" target="_blank">asignación de variables</a>, y
 están separadas por un carácter de barra vertical <code
         class="language-plaintext highlighter-rouge">|</code>.</p>
 
